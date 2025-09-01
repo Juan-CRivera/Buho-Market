@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "mssql": "^11.0.1",
+    "nodemailer": "^7.0.6"
+  }
+}

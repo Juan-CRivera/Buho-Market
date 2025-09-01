@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Recuperar Contraseña</title>
+  <link rel="stylesheet" href="Css/LoginStyle.css">
+</head>
+<body>
+  <div class="formulario">
+    <h1>Recuperar contraseña</h1>
+    <form method="post" action="http://localhost:3000/enviarCorreoRecuperacion">
+  <div class="correo">
+    <input type="email" name="correo" required
+           pattern="[a-zA-Z0-9._%+-]+@uca\.edu\.sv$"
+           title="Debe ser un correo institucional @uca.edu.sv">
+    <label>Correo institucional</label>
+  </div>
+  <button type="submit" class="btn-iniciar">Mandar correo</button>
+  <button type="button" onclick="window.location.href='../Index.html'">
+    Ir a Inicio
+  </button>
+</form>
+  </div>
+
+
+</body>
+</html>
